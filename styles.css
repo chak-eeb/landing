@@ -150,17 +150,16 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	background-color: hsla(207, 79%, 68%, 1);
-
+	background-color: white;
 	color: hsla(219, 79%, 41%, 0.85);
-	font-weight: 700;
-
+	font-weight: 400;
 	font-size: 2rem;
 	height: 40rem;
-	border: 2px solid hsla(219, 79%, 41%, 0.85);
+	/* border: 2px solid hsla(219, 79%, 41%, 0.85); */
 	border-radius: 3px;
-	box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
-	bottom: 5rem;
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #777;
 }
 
 .card h2 {
@@ -174,6 +173,17 @@ body {
 	/* display: flex; */
 
 	padding-bottom: 1rem;
+}
+
+/* projects section */
+
+.projects {
+	background-color: red;
+}
+
+.grid-heading-projects {
+	font-size: 4rem;
+	text-align: center;
 }
 
 @media (max-width: 1200px) {
