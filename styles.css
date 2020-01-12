@@ -282,4 +282,11 @@ body {
 	.project-description {
 		margin: 3rem auto;
 	}
+
+	.projects-btn {
+		font-size: 1.4rem;
+		border: 1px solid hsl(61, 69%, 23%);
+		border-radius: 5px;
+		width: 6rem;
+	}
 }
