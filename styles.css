@@ -222,6 +222,35 @@ body {
 	text-align: center;
 }
 
+.buttons {
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.projects-btn {
+	background-color: hsl(61, 69%, 23%);
+	font-size: 1.4rem;
+	margin-right: 4rem;
+	width: 10%;
+	height: 4rem;
+	border: 1px solid hsl(61, 69%, 23%);
+	border-radius: 50%;
+	outline: none;
+}
+
+.projects-btn:hover {
+	cursor: pointer;
+	background-color: hsl(60, 100%, 50%);
+}
+
+.projects-btn:hover a {
+	color: black;
+}
+
+.projects-btn a {
+	color: white;
+}
+
 .grid-heading-projects {
 	color: white;
 	font-size: 4rem;
