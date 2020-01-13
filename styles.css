@@ -257,6 +257,14 @@ body {
 	text-align: center;
 }
 
+footer {
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-size: 1.8rem;
+	text-align: center;
+}
+
 @media (max-width: 1200px) {
 	.grid-cards {
 		display: grid;
