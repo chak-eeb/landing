@@ -290,3 +290,13 @@ body {
 		width: 6rem;
 	}
 }
+
+@media (max-width: 500px) {
+	.header > a {
+		font-size: 1rem;
+	}
+
+	.projects-btn {
+		margin-top: 1rem;
+	}
+}
