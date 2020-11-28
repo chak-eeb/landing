@@ -203,7 +203,11 @@ body {
 /* projects section */
 
 .projects {
-  background-color: hsla(219, 79%, 41%, 0.85);
+  background-color: #fff;
+}
+
+.projects-heading {
+  color: hsla(219, 79%, 41%, 0.85);
 }
 
 .projects-grid {
@@ -214,12 +218,22 @@ body {
 
 .project-item {
   background-color: hsl(210, 63%, 59%);
-  padding-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
   margin-top: 5rem;
   box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+}
+
+.project-item:last-child {
+  margin-bottom: 2rem;
+}
+
+.project-image {
+  margin: auto 1rem;
 }
 
 .project-image img {
@@ -230,7 +244,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  align-items: center;
+  padding-right: 2rem;
   width: 50%;
   color: white;
   font-size: 2rem;
@@ -248,24 +263,27 @@ body {
 }
 
 .buttons {
+  width: 100%;
   text-align: center;
   margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .projects-btn {
-  background-color: hsl(61, 69%, 23%);
+  background-color: hsl(61, 92%, 51%);
   font-size: 1.4rem;
-  margin-right: 4rem;
-  width: 10%;
-  height: 4rem;
-  border: 1px solid hsl(61, 69%, 23%);
-  border-radius: 50%;
+  width: 25%;
+  padding: 0.7rem;
+  border: 1px solid hsl(61, 92%, 51%);
+  border-radius: 10%;
   outline: none;
 }
 
 .projects-btn:hover {
   cursor: pointer;
-  background-color: hsl(60, 100%, 50%);
+  background-color: hsl(60, 65%, 44%);
+  border: none;
 }
 
 .projects-btn:hover a {
@@ -273,7 +291,7 @@ body {
 }
 
 .projects-btn a {
-  color: white;
+  color: hsla(219, 79%, 41%, 0.85);
 }
 
 .grid-heading-projects {
@@ -299,12 +317,6 @@ footer {
   }
 }
 
-@media (max-width: 700px) {
-  .grid-cards {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media (max-width: 1000px) {
   .project-item {
     display: grid;
@@ -314,13 +326,23 @@ footer {
 
   .project-description {
     margin: 3rem auto;
+    padding-right: 0;
   }
 
   .projects-btn {
     font-size: 1.4rem;
-    border: 1px solid hsl(61, 69%, 23%);
-    border-radius: 5px;
-    width: 6rem;
+    width: 35%;
+  }
+}
+
+@media (max-width: 700px) {
+  .grid-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .project-description {
+    margin: 0 auto;
+    padding: 1.5rem 0;
   }
 }
 
