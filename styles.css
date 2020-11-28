@@ -225,7 +225,8 @@ body {
   align-items: center;
   width: 100%;
   margin-top: 5rem;
-  box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.3);
 }
 
 .project-item:last-child {
